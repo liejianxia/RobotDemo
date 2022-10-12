@@ -48,3 +48,6 @@ def move_docs(ctx):
     print(report.absolute())
     shutil.copy(report.absolute(), str(dest))
 # git push test
+@task
+def git_hook_test:
+    pass
