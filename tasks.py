@@ -47,3 +47,4 @@ def move_docs(ctx):
     shutil.copy(log.absolute(), str(dest))
     print(report.absolute())
     shutil.copy(report.absolute(), str(dest))
+# git push test
